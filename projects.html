@@ -54,12 +54,42 @@
         <h4 style="margin-left: 2rem">Projects</h4>
         <table style="margin: 2.5rem">
           <tr>
-            <th>Edge Detection</th>
+            <th>
+              Mix and Match: Image Caption Generators
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <img src="assets/images/caption.png" height="300px"/>
+              <!-- <embed src="assets/docs/413_report.pdf"  height="500px" /> -->
+            </td>
+            <td>
+              The generation of image captions has attracted the attention of researchers in the
+field of AI due to its many applications in a variety of fields. In this paper, we
+explore the impacts of substituting the vision deep CNN component of the caption
+generation model presented by <a href = "https://arxiv.org/abs/1411.4555">Vinyals et al</a> with other pre-trained models. We
+experiment with AlexNet, VGG-19, and Inception V3 for the vision component
+of the model and the LSTM model from the Vinyals et al paper for the language
+generating component of the model and see if there is a difference in performance
+in caption generation. We apply these modified models to the Flickr8k dataset
+and compare our models’ performances using BLEU-1, BLEU-2, BLEU-3, and
+BLEU-4 scores. We find that AlexNet outperforms VGG-19 and Inception V3
+when trained with a lower learning rate. <br>
+<br>
+<p>
+  Check out the code <a href="https://github.com/Ikochoy/Mix-MatchImageCaptioning">here</a>
+</p>
+<p>You can read the report <a href="assets/docs/413_report.pdf">here</a></p>
+
+            </td>
+          </tr>
+          <tr>
+            <th style="padding-top: 1.5em;">Edge Detection</th>
           </tr>
         <tr>
           <td>
-            <img  src="images/cn_tower.jpg"  style="height: 200px"/>
-            <img src = "images/edge_detection.png"  style="height: 200px"/>
+            <img  src="assets/images/cn_tower.jpg"  style="height: 200px"/>
+            <img src = "assets/images/edge_detection.png"  style="height: 200px"/>
           </td>
           <td>
             An implementation of the Sobel Edge Detection algorithm. 
@@ -67,39 +97,41 @@
             are the edges, thus by applying this filter, we are able to detect the edges. 
           </td>
         </tr>
-        </table>
-
-        <table style="margin: 2.5rem">
-          <tr>
-            <th>Reinforcement Learning</th>
-          </tr>
         <tr>
-          <td>
-            <video controls height="200px">
-              <source src="images/index.mp4" type="video/mp4">
-            </video>
-            
-          </td>
-          <td style="padding-left: 5rem">
-            A Deep Q-Network agent trained using an ε-greedy policy to balance a pole on a moving cart. 
-          </td>
+          <th style="padding-top:1.5em">Reinforcement Learning</th>
         </tr>
+      <tr>
+        <td>
+          <video controls height="200px">
+            <source src="assets/images/index.mp4" type="video/mp4">
+          </video>
+          
+        </td>
+        <td >
+          A Deep Q-Network agent trained using an ε-greedy policy to balance a pole on a moving cart. 
+        </td>
+      </tr>
+      <tr>
+        <th style="padding-top:1.5em">AmpHacks 2020</th>
+      </tr>
+      <td>
+        <iframe height="200" src="https://www.youtube.com/embed/TuXHfKNApQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </td>
+      <td>
+        The project my team developed for RBC's AmpHacks hackathon in 2020. <strong>We won first place!</strong>
+      </td>
+
         </table>
 
-
-
-
-        <!-- - AI4Good Lab Project
-        - AI ethics Projects
-        - 1 POL essay??? 
-        - 413 final project
+        <!-- 
+        - AI4Good Lab Project
         - 311 Final Project
-        - AmpHacks 2020 Project
+        - CSC401 A2 (NMT) or A3 (Speech)
+        - CSC413 (CNNs)
+        - CSC384: Othello, number game, HMMS (A2-4)
         - Checkulate CSC301
         - Chatbot Simulator CSC209 Final Project
         - CSC207 Final Project
-        - CSC401 A2 (NMT) or A3 (Speech)
-        - CSC413 (CNNs)
 
         
         
